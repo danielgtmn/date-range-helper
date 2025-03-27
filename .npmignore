@@ -1,0 +1,20 @@
+# Verzeichnisse
+src/
+tests/
+node_modules/
+coverage/
+
+# Konfigurationsdateien
+*.tsbuildinfo
+tsconfig.json
+tsup.config.ts
+vitest.config.ts
+
+# Testdateien
+*.test.ts
+*.spec.ts
+
+# Sonstiges
+.vscode/
+.env
+.env.*

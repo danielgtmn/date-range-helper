@@ -1,0 +1,53 @@
+{
+  "name": "@danielgtmn/date-range-helper",
+  "version": "0.0.1",
+  "description": "A lightweight utility for working with date ranges in JavaScript/TypeScript.",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest",
+    "test:watch": "vitest --watch"
+  },
+  "keywords": [
+    "date",
+    "date-range",
+    "utility",
+    "typescript",
+    "helper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielgtmn/date-range-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielgtmn/date-range-helper/issues"
+  },
+  "homepage": "https://github.com/danielgtmn/date-range-helper#readme",
+  "author": "Daniel Gietmann",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2",
+    "vitest": "^1.6.1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
