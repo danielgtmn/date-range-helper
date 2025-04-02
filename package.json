@@ -1,6 +1,6 @@
 {
   "name": "@danielgtmn/date-range-helper",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A lightweight utility for working with date ranges in JavaScript/TypeScript.",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
